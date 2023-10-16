@@ -7,5 +7,9 @@
 
 int _putchar(char c);
 int _printf(const char *format, ...);
+int printf_char(va_list args)
+int _strlen(char *s);
+int _strlenconst(const char *s);
+int printf_string(va_list args);
 
 #endif
