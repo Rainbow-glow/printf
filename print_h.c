@@ -19,7 +19,7 @@ int printf_hex(va_list args)
 		count++;
 	}
 	count++;
-	array = malloc(count * sizeof(int))
+	array = malloc(count * sizeof(int));
 	for (i = 0; i < count; i++)
 	{
 		array[i] = temp % 16;
